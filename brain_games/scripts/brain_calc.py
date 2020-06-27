@@ -1,12 +1,12 @@
 from brain_games.cli import welcome_user
-from brain_games.games.brain_even_logic import parity_check
+from brain_games.games.brain_calc_logic import calc_check
 
 
 def main():
     print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".\n')
+    print('What is the result of the expression?.\n')
     welcome_user()
-    parity_check()
+    calc_check()
 
 
 if __name__ == '__main__':

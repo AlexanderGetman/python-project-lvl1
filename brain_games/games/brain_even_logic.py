@@ -5,10 +5,9 @@ from brain_games.cli import welcome_user
 
 
 def parity_check():
-    question = randint(0, 100)
     i = 3
     while i != 0:
-        question = randint(0, 100)
+        question = randint(1, 100)
         logging.info("Question: " + str(question))
         answer = prompt.string('Your answer: ')
         if question % 2 == 0 and answer == 'yes':
