@@ -17,7 +17,8 @@ def calc_check():
         def incorrect_answer():
             logging.info(str(answer)
                          + ' is wrong answer ;(. Correct answer was '
-                         + str(eval(question)) + '.\n')
+                         + str(eval(question)) + '.\n'
+                         + "Let's try again, " + welcome_user.name + '!\n')
         answer = prompt.string('Your answer: ')
         if answer.isdigit():
             if abs(int(eval(question))) == int(answer):
@@ -25,7 +26,9 @@ def calc_check():
                 i -= 1
             else:
                 incorrect_answer()
+                break
         else:
             incorrect_answer()
+            break
         if i == 0:
             logging.info("Congratulations, " + welcome_user.name + "!")
