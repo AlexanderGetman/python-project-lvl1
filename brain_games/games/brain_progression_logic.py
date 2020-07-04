@@ -4,7 +4,7 @@ from random import randint
 from brain_games.cli import welcome_user
 
 
-def progression():
+def progression_check():
     i = 3
     while i != 0:
         progression_length = randint(3, 10)

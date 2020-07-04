@@ -1,12 +1,12 @@
 from brain_games.cli import welcome_user
-from brain_games.games.brain_progression_logic import progression_check
+from brain_games.games.brain_prime_logic import is_prime
 
 
 def main():
     print('Welcome to the Brain Games!')
-    print('What number is missing in the progression?.\n')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".\n')
     welcome_user()
-    progression_check()
+    is_prime()
 
 
 if __name__ == '__main__':
