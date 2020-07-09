@@ -1,12 +1,8 @@
-from brain_games.cli import welcome_user
-from brain_games.games.brain_progression_logic import progression_check
+from brain_games import engine, games
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    print('What number is missing in the progression?.\n')
-    welcome_user()
-    progression_check()
+    engine.start_engine(games.brain_progression_logic)
 
 
 if __name__ == '__main__':

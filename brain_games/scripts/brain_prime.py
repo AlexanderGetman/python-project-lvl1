@@ -1,12 +1,8 @@
-from brain_games.cli import welcome_user
-from brain_games.games.brain_prime_logic import is_prime
+from brain_games import engine, games
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".\n')
-    welcome_user()
-    is_prime()
+    engine.start_engine(games.brain_prime_logic)
 
 
 if __name__ == '__main__':

@@ -1,22 +1,13 @@
-import prompt
-import logging
 from random import randint
-from brain_games.cli import welcome_user
 
 
-def parity_check():
-    i = 3
-    while i != 0:
-        question = randint(1, 100)
-        logging.info("Question: " + str(question))
-        answer = prompt.string('Your answer: ')
-        if question % 2 == 0 and answer == 'yes':
-            logging.info('Correct!')
-            i -= 1
-        elif question % 2 != 0 and answer == 'no':
-            logging.info('Correct!')
-            i -= 1
-        elif answer != 'yes' or answer != 'no':
-            logging.info("Let's try again, " + welcome_user.name)
-        if i == 0:
-            logging.info("Congratulations, " + welcome_user.name + "!")
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".\n'
+
+
+def generate_question():
+    question = randint(1, 100)
+    if question % 2 == 0:
+        question_answer = 'yes'
+    elif question % 2 != 0:
+        question_answer = 'no'
+    return question, question_answer

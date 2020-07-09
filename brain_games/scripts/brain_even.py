@@ -1,12 +1,8 @@
-from brain_games.cli import welcome_user
-from brain_games.games.brain_even_logic import parity_check
+from brain_games import engine, games
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".\n')
-    welcome_user()
-    parity_check()
+    engine.start_engine(games.brain_even_logic)
 
 
 if __name__ == '__main__':
