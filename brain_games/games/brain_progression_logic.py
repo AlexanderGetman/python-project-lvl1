@@ -22,4 +22,5 @@ def generate_question():
             i_progression -= 1
     question_answer = str(question[position_num])
     question[position_num] = '..'
+    question = " ".join(str(x) for x in question)
     return question, question_answer
