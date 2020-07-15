@@ -1,5 +1,4 @@
 <a href="https://codeclimate.com/github/AlexanderGetman/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-<a href="https://codeclimate.com/github/AlexanderGetman/python-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 [![Build Status](https://travis-ci.org/AlexanderGetman/python-project-lvl1.svg?branch=master)](https://travis-ci.org/AlexanderGetman/python-project-lvl1)
 <h3>Brain Even</h3>
 <a href="https://asciinema.org/a/O5eVyLRsvo6dKnqQrPkxXti7C" target="_blank"><img src="https://asciinema.org/a/O5eVyLRsvo6dKnqQrPkxXti7C.svg" /></a>
