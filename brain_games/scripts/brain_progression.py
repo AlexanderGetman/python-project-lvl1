@@ -1,9 +1,13 @@
 from brain_games import engine
-from brain_games.games import brain_progression_logic
+from brain_games.games import progression
+import logging
+
+
+logging.basicConfig(format='%(message)s', level=logging.INFO)
 
 
 def main():
-    engine.start_engine(brain_progression_logic)
+    engine.start_engine(progression)
 
 
 if __name__ == '__main__':

@@ -1,4 +1,8 @@
 from brain_games.cli import welcome_user
+import logging
+
+
+logging.basicConfig(format='%(message)s', level=logging.INFO)
 
 
 def main():
