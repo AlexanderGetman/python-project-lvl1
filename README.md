@@ -1,7 +1,6 @@
 <h1>Hexlet Brain Games</h1>
 <p>Set of simple math games realised on Python as a part of the eponymous course on Hexlet.</p>
-<a href="https://codeclimate.com/github/AlexanderGetman/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-[![Build Status](https://travis-ci.org/AlexanderGetman/python-project-lvl1.svg?branch=master)](https://travis-ci.org/AlexanderGetman/python-project-lvl1)
+<a href="https://codeclimate.com/github/AlexanderGetman/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a><a href="https://travis-ci.org/AlexanderGetman/python-project-lvl1"><img src="https://travis-ci.org/AlexanderGetman/python-project-lvl1.svg?branch=master" /></a>
 <h2>Installation</h2>
 <p>To install the package run the command below.</p>
 <code>pip3 install --extra-index-url https://test.pypi.org/simple/ alexandergetman-brain-games</code>
