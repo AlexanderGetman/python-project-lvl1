@@ -9,16 +9,13 @@ def generate_game():
     diff = randint(1, 10)
     initial_number = randint(1, 10)
     position_num = randint(0, progression_length - 1)
-    i = progression_length
     index = 0
     question = []
-    while i != 0:
-        if progression_length == i:
+    while index != progression_length:
+        if index == 0:
             question.append(initial_number)
-            i -= 1
         else:
-            question.append(initial_number + index * diff)
-            i -= 1
+            question.append(initial_number + (index * diff))
         index += 1
     answer = str(question[position_num])
     question[position_num] = '..'
