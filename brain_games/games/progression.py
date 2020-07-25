@@ -10,10 +10,9 @@ def generate_game():
     initial_number = randint(1, 10)
     position_num = randint(0, progression_length - 1)
     index = 0
-    question = []
     while index != progression_length:
         if index == 0:
-            question.append(initial_number)
+            question = [initial_number, ]
         else:
             question.append(initial_number + (index * diff))
         index += 1

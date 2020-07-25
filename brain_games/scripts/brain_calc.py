@@ -7,7 +7,7 @@ logging.basicConfig(format='%(message)s', level=logging.INFO)
 
 
 def main():
-    engine.start_engine(calc)
+    engine.play(calc)
 
 
 if __name__ == '__main__':
