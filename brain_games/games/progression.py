@@ -12,11 +12,11 @@ def generate_game():
     index = 0
     while index != progression_length:
         if index == 0:
-            question = [initial_number, ]
+            progression = [initial_number, ]
         else:
-            question.append(initial_number + (index * diff))
+            progression.append(initial_number + (index * diff))
         index += 1
-    answer = str(question[position_num])
-    question[position_num] = '..'
-    question = " ".join(str(x) for x in question)
+    answer = str(progression[position_num])
+    progression[position_num] = '..'
+    question = " ".join(str(x) for x in progression)
     return question, answer
