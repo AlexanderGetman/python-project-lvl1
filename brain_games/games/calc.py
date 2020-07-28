@@ -17,7 +17,7 @@ def generate_game():
         result = operator.add(number1, number2)
     elif random_operator == '-':
         result = operator.sub(number1, number2)
-    else:
+    elif random_operator == '*':
         result = operator.mul(number1, number2)
     answer = str(result)
     return (question, answer)
